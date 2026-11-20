@@ -17,3 +17,6 @@ client/node_modules/
 client/dist/
 apps/waiter/node_modules/
 apps/waiter/dist/
+
+# Keep the environment template in the repo
+!.env.example
