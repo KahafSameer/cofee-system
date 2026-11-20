@@ -472,6 +472,8 @@ CORS_ORIGIN=http://localhost:3001,http://localhost:3002
 POSTGRES_PASSWORD=auraos_password
 ```
 
+> See [`.env.example`](.env.example) for every variable read by `src/config/env.ts` (payments, WhatsApp, Zomato, SMTP, CORS, Sentry, Redis, multi-tenant routing).
+>
 > Razorpay, WhatsApp, Zomato, SMTP, and Sentry are **optional** — defaults use cash-only payments, console email, and console monitoring.
 
 ### 3. Run Migrations
